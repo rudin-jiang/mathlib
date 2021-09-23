@@ -3,8 +3,10 @@ TARGET	= mathlib-test
 
 
 CC 		= g++
-CFLAGS	= -std=c++11 -O3 -Wall
-LFLAGS	= -std=c++11 -O3 -Wall
+
+# using c++98 standard here is just for portability
+CFLAGS	= -std=c++98 -O3 -Wall
+LFLAGS	= -std=c++98 -O3 -Wall
 
 
 SRC_DIR	= src
